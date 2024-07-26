@@ -1,30 +1,36 @@
-### Inventory management system 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
- A invetoy management system that helps munciple corporations to manage their inventory 
+## Getting Started
 
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Problem Statement: Streamlining Inventory Management for Municipal Corporations
-Background: Municipal corporations manage a wide range of assets, supplies, and equipment necessary
-for the delivery of public services. Efficient inventory management is crucial to ensure these resources are
-available when needed, minimizing waste, and optimizing costs. However, many municipal corporations
-still rely on outdated or manual inventory management systems, leading to several inefficiencies.
-Description: Current manual and outdated inventory management systems in municipal corporations lead
-to resource shortages, excess stock, increased costs, and reduced operational efficiency. Errors and delays
-in manual tracking make it challenging to maintain accurate records, resulting in critical supplies being
-unavailable or overstocked. The proposed inventory management system will enhance the efficiency,
-accuracy, and reliability of inventory management in municipal corporations, leading to better resource
-allocation, reduced costs, and improved service delivery.
-Objectives
-• Automate Shelf-Life Management: Automatically track and manage the shelf life of perishable
-items to ensure timely usage and reduce waste.
-• Enhance Internal Communication: Implement an internal communication system to facilitate
-seamless interaction between different departments regarding inventory needs and updates.
-• Manage Inventory Workflow: Establish a workflow management system to oversee the
-movement and status of inventory items, ensuring that processes are followed systematically.
-• Implement Authorization Controls: Create an authorization system that defines who can move
-inventory items from one status to another, enhancing security and accountability.
-• Provide Notifications: Develop a notification system to alert relevant personnel about critical
-inventory events, such as low stock levels, expired items, or pending approvals.
-• Maintain an Asset Database: Maintain a comprehensive and up-to-date database of all assets,
-supplies, and equipment, providing a single source of truth for inventory management.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
